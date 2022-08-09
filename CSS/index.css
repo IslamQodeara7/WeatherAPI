@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "harlow";
+    src: url(../webfonts/HARLOWSI_1.woff);
+}
+
+body{
+    font-family: "harlow";
+}
+
+:root {
+    --mainColor1: rgb(0, 154, 216);
+    --mainColor2: rgb(30, 32, 43);
+    --mainColor3: rgb(191, 193, 200);
+    --mainColor4: #bfc1c8;
+}
+
+nav li a {
+    border-radius: 50px;
+    border-color : var(--mainColor2);
+    border-style : solid;
+    border-width : 2px;
+    margin       : 0px 5px;
+    font-weight  : bold;
+    color        : var(--mainColor3) !important;
+    transition   : all 500ms !important;
+    font-size    : 14px;
+    padding      : 5px 20px !important;
+    cursor: pointer;
+}
+
+.foot,
+nav {
+    background-color: var(--mainColor2);
+}
+
+nav li a:hover {
+    color       : var(--mainColor1) !important;
+    border-color: var(--mainColor1);
+}
+
+.logoIllustration {
+    font-size: 8px;
+    color    : var(--mainColor3) !important;
+}
+
+.backgroundI {
+    background-image   : url(../Images/banner.png);
+    background-position: center center;
+    background-size    : cover;
+}
+
+.backgroundC {
+    background-color: var(--mainColor2);
+}
+
+.upperOne {
+    top   : 0;
+    left  : 0;
+    right : 0;
+    bottom: 0;
+}
+
+.searchButton {
+    position        : absolute;
+    top             : 0;
+    right           : 0;
+    color           : white;
+    background-color: var(--mainColor1);
+    width           : 100px;
+    border-radius   : 50px;
+    margin-right    : 3px;
+    font-weight     : bold;
+    cursor: pointer;
+}
+
+.searchInput {
+    border-radius   : 50px;
+    background-color: var(--mainColor2);
+    box-shadow      : none !important;
+    transition      : all 2s 1s;
+    transform       : scaleY(1.2);
+    border          : none;
+}
+
+.searchInput:focus {
+    background-color: var(--mainColor2);
+}
+
+.foot{
+    background-color: rgba(38,41,54);
+
+}
+
+.subscribeButton{
+    position        : absolute;
+    top             : 0;
+    right           : 12px;
+    color           : white;
+    background-color: var(--mainColor1);
+    width           : 100px;
+    border-radius   : 50px;
+    margin-right    : 3px;
+    font-weight     : bold;
+    cursor: pointer;
+}
+
+.iconsDiv i{
+    font-size: 30px;
+    color: var(--mainColor1);
+    background-color: var(--mainColor2);
+    color: var(--mainColor1);
+    padding: 10px;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    cursor: pointer !important;
+}
+
+.iconsDiv i:hover{
+    color: white;
+    background-color: var(--mainColor1);
+}
+
+.day1,.day2{
+    border-radius: 20px;
+    background-color: var(--mainColor2);
+    border: 1px solid white;
+}
+
+.lol{
+    background-image: url(../Images/banner.png);
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-color: var(--mainColor2);
+}
+
+.status{
+    color: var(--mainColor1);
+}
+
+
