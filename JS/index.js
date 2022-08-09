@@ -65,7 +65,7 @@ findLocationButton.addEventListener("click", function () {
 
 function getData(input) {
     var api = new XMLHttpRequest();
-    api.open("GET", `http://api.weatherapi.com/v1/forecast.json?key=52e3cb71626746feb70173626220506&q=${input}&days=3`);
+    api.open("GET", `https://api.weatherapi.com/v1/forecast.json?key=52e3cb71626746feb70173626220506&q=${input}&days=3`);
     api.send();
     api.addEventListener("readystatechange", function () {
         if (api.readyState == 4 && api.status == 200) {
